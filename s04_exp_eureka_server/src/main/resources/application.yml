@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: s04_exp_eureka_server
+
+server:
+  port: 8761
+
+eureka:
+  client:
+    register-with-eureka: false
+    fetch-registry: false
